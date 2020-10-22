@@ -264,7 +264,8 @@ if __name__ == '__main__':
 hash函数(static method):
 
 将整个块的转成一个string,，然后再通过这个string生成hash值，并转成16进制
-值得称赞的是，这里要确保通过json将dict转成string的过程中，需要保证keys的顺序。只有这样，才能确保整个hash映射到整个块的时候，得到的结果具有唯一性
+值得称赞的是，这里要确保通过json将dict转成string的过程中，需要保证keys的顺序。
+只有这样，才能确保整个hash映射到整个块的时候，得到的结果具有唯一性
 last_block函数(通过@property操作符变成了一个属性)
 
 会返回这个blockChain中最后一个块
